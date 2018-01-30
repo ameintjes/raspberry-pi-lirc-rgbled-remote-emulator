@@ -58,7 +58,7 @@ If necessary, modify the `gpio_out_pin` value to match the GPIO being used.
 
 Port 13 is the default GPIO IN setting. This project does not require it, so it can be left as is. 
 
-After saving, reboot the Raspberry Pi. If everything is properly configured the `ls /etc/lirc0` will not return a file not found error.
+After saving, reboot the Raspberry Pi. If everything is properly configured the `ls /dev/lirc0` will not return a file not found error.
 
 Note: More information about Device Tree Overlay is available [here](https://www.raspberrypi.org/documentation/configuration/device-tree.md).
 
